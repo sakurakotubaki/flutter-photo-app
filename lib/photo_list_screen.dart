@@ -42,6 +42,7 @@ class _PhotoListScreenState extends State<PhotoListScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Photo App'),
+        backgroundColor: Colors.amber,
         actions: [
           // ログアウト用ボタン
           IconButton(
@@ -76,7 +77,8 @@ class _PhotoListScreenState extends State<PhotoListScreen> {
       floatingActionButton: FloatingActionButton(
         // 画像追加用ボタンをタップしたときの処理
         onPressed: () => _onAddPhoto(),
-        child: Icon(Icons.add),
+        backgroundColor: Colors.black87,
+        child: Icon(Icons.add,),
       ),
       // フッター部分
       bottomNavigationBar: BottomNavigationBar(
