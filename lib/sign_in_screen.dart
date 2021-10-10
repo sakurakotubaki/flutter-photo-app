@@ -41,8 +41,8 @@ class _SignInScreenState extends State<SignInScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'Photo App',
-                  style: TextStyle(fontSize: 24),
+                  '写真共有アプリ',
+                  style: TextStyle(fontSize: 24, color: Colors.red[400]),
                 ),
                 SizedBox(height: 16),
                 TextFormField(
@@ -80,6 +80,10 @@ class _SignInScreenState extends State<SignInScreen> {
                   child: ElevatedButton(
                     onPressed: () => _onSignIn(context),
                     child: Text('ログイン'),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.orange,
+                      onPrimary: Colors.white,
+                    ),
                   ),
                 ),
                 SizedBox(height: 16),
@@ -88,6 +92,10 @@ class _SignInScreenState extends State<SignInScreen> {
                   child: ElevatedButton(
                     onPressed: () => _onSignUp(context),
                     child: Text('新規登録'),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.orange,
+                      onPrimary: Colors.white,
+                    ),
                   ),
                 ),
               ],
