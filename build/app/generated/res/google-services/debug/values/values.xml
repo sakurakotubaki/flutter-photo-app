@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">595325148162-n3uk6u8v12hvb4sn0lf2822jl2jmofp0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">595325148162</string>
+    <string name="google_api_key" translatable="false">AIzaSyCwoE9X0JlQb11cwlhJuZ3xfrlmvCEpRVQ</string>
+    <string name="google_app_id" translatable="false">1:595325148162:android:900036cdf4c6a424c3db1b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCwoE9X0JlQb11cwlhJuZ3xfrlmvCEpRVQ</string>
+    <string name="google_storage_bucket" translatable="false">photo-app-provider.appspot.com</string>
+    <string name="project_id" translatable="false">photo-app-provider</string>
+</resources>
